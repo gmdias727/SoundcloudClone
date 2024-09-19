@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="text-4xl">rota /</h1>
+        <h1 class="text-4xl">rota / aaaa</h1>
     </div>
 </template>
 

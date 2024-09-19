@@ -10,12 +10,14 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   modules: [
-    "@nuxtjs/tailwindcss",
     "@nuxt/fonts",
     ["@nuxtjs/google-fonts", {
       families: {
         Inter: [400, 700],
       },
     }],
+    "@nuxt/ui",
+    "@nuxt/content",
+    '@vueuse/nuxt',
   ],
 })
